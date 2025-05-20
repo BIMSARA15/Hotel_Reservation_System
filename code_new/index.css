@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height:300px;
+    margin: 0;
+    padding: 0;
+    background-color: #31525B;
+}
+
+.container-oggy {
+    background-image: url('img/back2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+    font-family:Quicksand;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .logo:hover{
+    color: #FFA101;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #FFA101; 
+  }
+
+  .logo-oggy{
+    background-image: url('img/logo.png'); 
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  @font-face {
+    font-family: "Honey";
+    src: url("img/HoneyScript-Light.ttf");
+}
+  .text-oggy{
+   font-family: Honey;
+   font-size: 50px;
+   letter-spacing: 2px;
+   padding: 5px;
+   align-items: center;
+  }
+
+  @font-face {
+    font-family: "Quicksand";
+    src: url("img/Quicksand-Medium.ttf");
+}
+
+.text-oggy-2{
+    font-family: Quicksand;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-weight: bolder;
+   }
+
+   .text-oggy-3{
+    font-family: Quicksand;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 1px;
+    font-weight: bold;
+   }
+
+   .signup-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-input {
+    margin-bottom: 15px;
+}
+.form-input label {
+    font-weight: bold;
+}
+.form-input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-input select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-button {
+    text-align: center;
+}
+.form-button button {
+    background-color:#ccc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-link {
+    text-align: center;
+    margin-top: 10px;}
+  
+.display-not{
+    display: none;
+    content-visibility:hidden
+}
+
